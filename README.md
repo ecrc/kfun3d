@@ -23,7 +23,7 @@ MIT License
 
 ## Acknowledgments ##
 
-Support in the form of computing resources was provided by KAUST Extreme Computing Research Center, KAUST Supercomputing Laboratory, KAUST Information Technology Research Division, Intel Parallel Computing Centers, Isambard Project at University of Bristol, CUDA Center of Excellence at KAUST, Blue Waters Supercomputer at University of Illinois at Urbana-Champaign, and Cray Center of Excellence at KAUST
+Support in the form of computing resources was provided by KAUST Extreme Computing Research Center, KAUST Supercomputing Laboratory, KAUST Information Technology Research Division, Intel Parallel Computing Centers, Isambard Project at University of Bristol, CUDA Center of Excellence at KAUST, Blue Waters Supercomputer at University of Illinois at Urbana-Champaign, and Cray Center of Excellence at KAUST.
 
 ## Papers ##
 
