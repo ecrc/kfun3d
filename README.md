@@ -11,7 +11,29 @@ KFUN3D is is closely related to the export-controlled state-of-the-practice FUN3
 
 PETSc-FUN3D is a research fork of the incompressible and compressible Euler subset of the original FUN3D code that was restructured to employ Portable, Extensible Toolkit for Scientific Computation (PETSc) solver framework (https://www.mcs.anl.gov/petsc/) for the study of distributed-memory scaling. PETSc-FUN3D performance is thoroughly discussed, analyzed, and modeled in [1], which culminated in the 1999 Gordon Bell Special Prize undertaken jointly by the primary architect of FUN3D and members of the PETSc development team, which ran on the world’s then most powerful supercomputer, the Intel ASCI Red machine at Sandia.
 
-### Under Construction ###
+### Requirements ###
+
+* C/C++ Compiler (e.g., **GNU C/C++ Compiler** -- https://www.gnu.org/software/gcc/)
+* METIS (http://glaros.dtc.umn.edu/gkhome/metis/metis/overview)
+
+The repository includes **METIS**, and the default Makefile links to it. Thus, you may not need to install yours, you can just use the one that is already included herein. However, if you have a better installation that you wish to link to, just install it on your software environment and directly link to it.
+
+Having said that and since the repository already included the required external library, the minimum requirements to run KFUN3D are:
+
+* C/C++ Compiler (e.g., **GNU C/C++ Compiler** -- https://www.gnu.org/software/gcc/)
+
+Please have the dependency configured and installed on your system before running the code.
+
+
+## Compiling and Linking ##
+
+Edit makefile file to include all of your installed dependencies. The default ones are set to GNU GCC compiler. If you have the compiler configured and installed on your system, then you may not need to edit the makefile file. Anything that you do not want to include in the make, just comment it out. All of your changes must be directed to the makefile file only. Even if you want to add additional compiler's flags, use **USERCXXFLAGS**, **USERLIBS**, **USERINCS** variables in the makefile to include all of your flags. Once you edit the makefile file, you can just do:
+
+```bash
+make clean
+make all
+```
+`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out` executable command. Please provide your command-line arguments.
 
 ## Contact ##
 
