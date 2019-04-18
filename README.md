@@ -28,3 +28,6 @@ Support in the form of computing resources was provided by KAUST Extreme Computi
 ## Papers ##
 
 [1] W. D. Gropp, D. K. Kaushik, D. E. Keyes, and B. F. Smith, *High-performance parallel implicit CFD*, Parallel Computing, vol. 27, no. 4, pp. 337–362, 2001, Parallel Computing in Aerospace.
+[2] M. A. Al Farhan, *Unstructured Computations on Emerging Architectures*, [PhD Dissertation, KAUST,] 2019. http://hdl.handle.net/10754/.
+[3] M. A. Al Farhan and D. E. Keyes, *Optimizations of unstructured aerodynamics computations for many-core architectures*, IEEE Transactions on Parallel and Distributed Systems, vol. 29, no. 10, pp. 2317-2332, 2018.
+[4] M. A. Al Farhan, D. K. Kaushik, and D. E. Keyes, *Unstructured computational aerodynamics on many integrated core architecture*, Parallel Computing, vol. 59, pp. 97–118, 2016, Theory and Practice of Irregular Applications.
