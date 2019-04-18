@@ -13,4 +13,18 @@ PETSc-FUN3D is a research fork of the incompressible and compressible Euler subs
 
 ### Under Construction ###
 
+## Contact ##
+
+* mohammed.farhan@kaust.edu.sa
+
+## License ###
+
+MIT License
+
+## Acknowledgments ##
+
+Support in the form of computing resources was provided by KAUST Extreme Computing Research Center, KAUST Supercomputing Laboratory, KAUST Information Technology Research Division, Intel Parallel Computing Centers, Isambard Project at University of Bristol, CUDA Center of Excellence at KAUST, Blue Waters Supercomputer at University of Illinois at Urbana-Champaign, and Cray Center of Excellence at KAUST
+
+## Papers ##
+
 [1] W. D. Gropp, D. K. Kaushik, D. E. Keyes, and B. F. Smith, *High-performance parallel implicit CFD*, Parallel Computing, vol. 27, no. 4, pp. 337–362, 2001, Parallel Computing in Aerospace.
