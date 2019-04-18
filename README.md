@@ -35,6 +35,39 @@ make all
 ```
 `make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out` executable command. Please provide your command-line arguments.
 
+### Running Test Cases ###
+
+To give you a flavor of the excepted outputs, you can use: `make test`, for parallel execution.
+
+## Tested Architectures ##
+
+Here is a list of the systems in which we ran KFUN3D.
+
+* Intel Skylake Scalable Processor Server [56 Cores (dual-socket)]
+  * Intel Parallel Studio 2019
+  * Used the repository provided library for METIS
+* Intel Knights Landing Server [72 Cores and 64 Cores]
+  * Intel Parallel Studio 2019
+  * Used the repository provided library for METIS
+* Intel Haswell Server [36 Cores (dual-socket)]
+  * Intel Parallel Studio 2019
+  * Used the repository provided library for METIS
+* Intel IvyBridge Server [20 Cores (dual-socket)]
+  * GNU GCC version 8.3.0
+  * Used the repository provided library for METIS
+* Intel SandyBridge Server [20 Cores (dual-socket)]
+  * GNU GCC version 8.3.0
+  * Used the repository provided library for METIS
+* AMD EPYC Server [16 Cores (quad-socket)]
+  * GNU GCC version 8.3.0
+  * Used the repository provided library for METIS
+* ARM [16 Cores (quad-socket)]
+  * GNU GCC version 8.3.0
+  * Used the repository provided library for METIS
+* AMD EPYC Server [16 Cores (quad-socket)]
+  * GNU GCC version 8.3.0
+  * Used the repository provided library for METIS
+
 ## Contact ##
 
 * mohammed.farhan@kaust.edu.sa
