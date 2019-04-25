@@ -27,13 +27,13 @@ Please have the dependency configured and installed on your system before runnin
 
 ## Compiling and Linking ##
 
-Edit makefile file to include all of your installed dependencies. The default ones are set to GNU GCC compiler. If you have the compiler configured and installed on your system, then you may not need to edit the makefile file. Anything that you do not want to include in the make, just comment it out. All of your changes must be directed to the makefile file only. Even if you want to add additional compiler's flags, use **USERCXXFLAGS**, **USERLIBS**, **USERINCS** variables in the makefile to include all of your flags. Once you edit the makefile file, you can just do:
+Edit the makefile to include all of your installed dependencies. The default ones are set to GNU GCC compiler. If you have the compiler configured and installed on your system, then you may not need to edit the makefile. Anything that you do not want to include in the make, just comment it out. Once you edit the makefile file, you can just do:
 
 ```bash
 make clean
 make all
 ```
-`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out` executable command. Please provide your command-line arguments.
+`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out -m A|B|C|D -t <nthreads>` executable command. `A|B|C|D` is the mesh dataset, located at **mesh/** directory. We have mesh A and B are only provided in the repository directory at Github, the reet of the meshs, however, can be requested by contacting us.
 
 ### Running Test Cases ###
 
