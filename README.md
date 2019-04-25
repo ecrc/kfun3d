@@ -66,6 +66,11 @@ Here is a list of the systems in which we ran KFUN3D.
   * Arm C/C++ Compiler version 6.12
   * Used the repository provided library for METIS
 
+## Concluding Remarks ##
+### High-level abstraction of hardware and software co-design ecosystem ###
+
+![Image of the co-design ecosystem](LL.png)
+
 ## Contact ##
 
 * mohammed.farhan@kaust.edu.sa
