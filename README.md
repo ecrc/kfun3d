@@ -38,7 +38,7 @@ make clean
 make all
 ```
 
-`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out -m <Mesh_Dataset<A|B|C|D>> -t <number_of_OpenMP_threads>` executable command. The mesh datasets are located in the **mesh/** directory: **A|B|C|D**, each one has different sizes.
+`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out -m <Mesh_Dataset<A|B|C|D>> -t <number_of_OpenMP_threads>` executable command.
 
 ### Running Test Cases ###
 
