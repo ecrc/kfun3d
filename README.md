@@ -34,7 +34,7 @@ make clean
 make all
 ```
 
-`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out -m A|B|C|D -t <nthreads>` executable command. `A|B|C|D` are the mesh datasets that are located at **mesh/** directory. We have mesh A and B are only provided in the repository directory at Github, the rest of the meshes, however, can be requested by contacting us.
+`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out -m A|B|C|D -t <nthreads>` executable command. `A|B|C|D` are the mesh datasets located in **mesh/** directory. The only provided meshes thus far are A and B in the repository Github. However, the rest of the meshes can be requested by contacting us.
 
 ### Running Test Cases ###
 
