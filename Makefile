@@ -176,7 +176,7 @@ matrix_lib:
 	wrapper.o
 
 main: $(OBJS)
-	${CC} $(CFLAGS) -o main.out $(OBJS) ${LCXX} $(LIBS)
+	${CC} $(CFLAGS) -o kfun3d.out $(OBJS) ${LCXX} $(LIBS)
 	${RM} *.o src/*.o *.a
 
 valgrind:
@@ -186,17 +186,17 @@ valgrind:
 	--leak-resolution=high \
 	--show-leak-kinds=all \
 	--show-mismatched-frees=yes \
-	./main.out -m A -t 1
+	./kfun3d.out -m A -t 1
 
 cachegrind:
 	valgrind --tool=cachegrind \
-	./main.out -m A -t 1
+	./kfun3d.out -m A -t 1
 
 run_serial:
-	./main.out -m A -t 1
+	./kfun3d.out -m A -t 1
 
 run_parallel:
-	./main.out -m B -t 20
+	./kfun3d.out -m B -t 20
 
 clean:
 	${RM} *.out *.o *.a src/*.o \
