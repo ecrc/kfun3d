@@ -73,7 +73,7 @@ Here is a list of the systems in which we ran KFUN3D.
 ## Concluding Remarks ##
 
 <p align="center">
-  <img width="450" height="460" src="LL.png">
+  <img width="430" height="460" src="LL.png">
 </p>
 
 ## Contact ##
