@@ -73,7 +73,7 @@ Here is a list of the systems in which we ran KFUN3D.
 ## High-level Abstraction of Hardware and Software Co-design Ecosystem ##
 
 <p align="center">
-  <img width="450" height="460" src="LL.png">
+  <img width="550" height="560" src="LL.png">
 </p>
 
 ## Contact ##
