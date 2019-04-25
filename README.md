@@ -11,6 +11,10 @@ KFUN3D is is closely related to the export-controlled state-of-the-practice FUN3
 
 PETSc-FUN3D is a research fork of the incompressible and compressible Euler subset of the original FUN3D code that was restructured to employ Portable, Extensible Toolkit for Scientific Computation (PETSc) solver framework (https://www.mcs.anl.gov/petsc/) for the study of distributed-memory scaling. PETSc-FUN3D performance is thoroughly discussed, analyzed, and modeled in [1], which culminated in the 1999 Gordon Bell Special Prize undertaken jointly by the primary architect of FUN3D and members of the PETSc development team, which ran on the world’s then most powerful supercomputer, the Intel ASCI Red machine at Sandia.
 
+<p align="center">
+  <img width="460" height="300" src="TL.png">
+</p>
+
 ![Image of the petsc-fun3d development timeline](TL.png)
 
 ### Requirements ###
