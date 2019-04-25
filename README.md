@@ -42,7 +42,7 @@ make all
 
 ### Running Test Cases ###
 
-To give you a flavor of the excepted outputs, you can use: `make test_A` and `make test_B`, for parallel execution with Mesh A and B, respectively.
+To give you a flavor of the excepted outputs, you can use: `make run_serial` for serial execution, and `make run_parallel`, for parallel execution with mesh A and B, respectively. Furthermore, if you have Valigrind (http://valgrind.org/) configured and installed on your default system path and you want to test the memory leaks, then you can run `make valgrind` and `make cachegrind`.
 
 ## Tested Architectures ##
 
