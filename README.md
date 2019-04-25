@@ -34,7 +34,7 @@ make clean
 make all
 ```
 
-`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out -m A|B|C|D -t <nthreads>` executable command. `A|B|C|D` is the mesh dataset, located at **mesh/** directory. We have mesh A and B are only provided in the repository directory at Github, the rest of the meshes, however, can be requested by contacting us.
+`make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out -m A|B|C|D -t <nthreads>` executable command. `A|B|C|D` are the mesh datasets that are located at **mesh/** directory. We have mesh A and B are only provided in the repository directory at Github, the rest of the meshes, however, can be requested by contacting us.
 
 ### Running Test Cases ###
 
@@ -56,17 +56,14 @@ Here is a list of the systems in which we ran KFUN3D.
 * Intel IvyBridge Server [20 Cores (dual-socket)]
   * GNU GCC version 8.3.0
   * Used the repository provided library for METIS
-* Intel SandyBridge Server [20 Cores (dual-socket)]
+* Intel SandyBridge Server [16 Cores (dual-socket)]
   * GNU GCC version 8.3.0
   * Used the repository provided library for METIS
-* AMD EPYC Server [16 Cores (quad-socket)]
-  * GNU GCC version 8.3.0
+* AMD EPYC 7601 [64 Cores (dual-socket)]
+  * AMD AOCC version 1.3.0
   * Used the repository provided library for METIS
-* ARM [16 Cores (quad-socket)]
-  * GNU GCC version 8.3.0
-  * Used the repository provided library for METIS
-* AMD EPYC Server [16 Cores (quad-socket)]
-  * GNU GCC version 8.3.0
+* ARM Cavium ThunderX2 [64 Cores (dual-socket)]
+  * Arm C/C++ Compiler version 6.12
   * Used the repository provided library for METIS
 
 ## Contact ##
