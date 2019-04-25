@@ -70,10 +70,10 @@ Here is a list of the systems in which we ran KFUN3D.
   * Arm C/C++ Compiler version 6.12
   * Used the repository provided library for METIS
 
-## High-level Abstraction of Hardware and Software Co-design Ecosystem ##
+## Concluding Remarks ##
 
 <p align="center">
-  <img width="650" height="660" src="LL.png">
+  <img width="450" height="460" src="LL.png">
 </p>
 
 ## Contact ##
