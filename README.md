@@ -9,13 +9,13 @@ KFUN3D is is closely related to the export-controlled state-of-the-practice FUN3
 
 ## PETSc-FUN3D ##
 
-PETSc-FUN3D is a research fork of the incompressible and compressible Euler subset of the original FUN3D code that was restructured to employ Portable, Extensible Toolkit for Scientific Computation (PETSc) solver framework (https://www.mcs.anl.gov/petsc/) for the study of distributed-memory scaling. PETSc-FUN3D performance is thoroughly discussed, analyzed, and modeled in [1], which culminated in the 1999 Gordon Bell Special Prize undertaken jointly by the primary architect of FUN3D and members of the PETSc development team, which ran on the world’s then most powerful supercomputer, the Intel ASCI Red machine at Sandia.
+PETSc-FUN3D (https://www.mcs.anl.gov/research/projects/petsc-fun3d/) is a research fork of the incompressible and compressible Euler subset of the original FUN3D code that was restructured to employ Portable, Extensible Toolkit for Scientific Computation (PETSc) solver framework (https://www.mcs.anl.gov/petsc/) for the study of distributed-memory scaling. PETSc-FUN3D performance is thoroughly discussed, analyzed, and modeled in [1], which culminated in the 1999 Gordon Bell Special Prize undertaken jointly by the primary architect of FUN3D and members of the PETSc development team, which ran on the world’s then most powerful supercomputer, the Intel ASCI Red machine at Sandia.
 
 <p align="center">
   <img src="TL.png">
 </p>
 
-### Requirements ###
+## Requirements ##
 
 * C/C++ Compiler (e.g., **GNU C/C++ Compiler** -- https://www.gnu.org/software/gcc/)
 * METIS (http://glaros.dtc.umn.edu/gkhome/metis/metis/overview)
@@ -40,7 +40,7 @@ make all
 
 `make` should generate an executable binary file called: **kfun3d.out**. You can run it directly with `./kfun3d.out -m <A|B|C|D> -t <number_of_OpenMP_threads>` executable command. The mesh datasets are located in the **mesh/** directory (**A, B, C, and D** (each one represents different dataset size)). Note: The only provided meshes in this repository are A and B, due to Github capacity constraints. However, the rest of the meshes can be requested by contacting us.
 
-### Running Test Cases ###
+## Running Test Cases ##
 
 To give you a flavor of the excepted outputs, you can use: `make run_serial` for serial execution, and `make run_parallel`, for parallel execution with mesh A and B, respectively. Furthermore, if you have Valigrind (http://valgrind.org/) configured and installed on your default system path and you want to test the memory leaks, then you can run `make valgrind` and `make cachegrind`.
 
@@ -48,19 +48,19 @@ To give you a flavor of the excepted outputs, you can use: `make run_serial` for
 
 Here is a list of the systems in which we ran KFUN3D.
 
-* Intel Skylake Scalable Processor Server [56 Cores (dual-socket)]
+* Intel Skylake Scalable Processor [56 Cores (dual-socket)]
   * Intel Parallel Studio 2019
   * Used the repository provided library for METIS
-* Intel Knights Landing Server [72 Cores and 64 Cores]
+* Intel Knights Landing [72 Cores and 64 Cores]
   * Intel Parallel Studio 2019
   * Used the repository provided library for METIS
-* Intel Haswell Server [36 Cores (dual-socket)]
+* Intel Haswell [36 Cores (dual-socket)]
   * Intel Parallel Studio 2019
   * Used the repository provided library for METIS
-* Intel IvyBridge Server [20 Cores (dual-socket)]
+* Intel IvyBridge [20 Cores (dual-socket)]
   * GNU GCC version 8.3.0
   * Used the repository provided library for METIS
-* Intel SandyBridge Server [16 Cores (dual-socket)]
+* Intel SandyBridge [16 Cores (dual-socket)]
   * GNU GCC version 8.3.0
   * Used the repository provided library for METIS
 * AMD EPYC 7601 [64 Cores (dual-socket)]
@@ -73,14 +73,14 @@ Here is a list of the systems in which we ran KFUN3D.
 ## Concluding Remarks ##
 
 <p align="center">
-  <img width="450" height="460" src="LL.png">
+  <img width="430" height="440" src="LL.png">
 </p>
 
 ## Contact ##
 
 * mohammed.farhan@kaust.edu.sa
 
-## License ###
+## License ##
 
 MIT License
 
