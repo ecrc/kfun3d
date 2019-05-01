@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Large meshes
+uns3dC.msh
+uns3dD.msh
