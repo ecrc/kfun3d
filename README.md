@@ -9,7 +9,7 @@ KFUN3D is is closely related to the export-controlled state-of-the-practice FUN3
 
 ## PETSc-FUN3D ##
 
-PETSc-FUN3D (https://www.mcs.anl.gov/research/projects/petsc-fun3d/) is a research fork of the incompressible and compressible Euler subset of the original FUN3D code that was restructured to employ Portable, Extensible Toolkit for Scientific Computation (PETSc) solver framework (https://www.mcs.anl.gov/petsc/) for the study of distributed-memory scaling. PETSc-FUN3D performance is thoroughly discussed, analyzed, and modeled in [1], which culminated in the 1999 Gordon Bell Special Prize undertaken jointly by the primary architect of FUN3D and members of the PETSc development team, which ran on the world’s then most powerful supercomputer, the Intel ASCI Red machine at Sandia.
+PETSc-FUN3D (https://www.mcs.anl.gov/research/projects/petsc-fun3d/) is a research fork of the incompressible and compressible Euler subset of the original FUN3D code that was restructured to employ Portable, Extensible Toolkit for Scientific Computation (PETSc) solver framework (https://www.mcs.anl.gov/petsc/) for the study of distributed-memory scaling. PETSc-FUN3D performance is thoroughly discussed, analyzed, and modeled in [Gropp, ParCO'01], which culminated in the 1999 Gordon Bell Special Prize undertaken jointly by the primary architect of FUN3D and members of the PETSc development team, which ran on the world’s then most powerful supercomputer, the Intel ASCI Red machine at Sandia.
 
 <p align="center">
   <img src="TL.png">
@@ -90,12 +90,12 @@ Support in the form of computing resources was provided by KAUST Extreme Computi
 
 ## Papers ##
 
-[1] W. D. Gropp, D. K. Kaushik, D. E. Keyes, and B. F. Smith, *High-performance parallel implicit CFD*, Parallel Computing, vol. 27, no. 4, pp. 337–362, 2001, Parallel Computing in Aerospace.
+[1] M. A. Al Farhan, *Unstructured Computations on Emerging Architectures*, [PhD Dissertation, KAUST,] 2019. http://hdl.handle.net/10754/644902.
 
 [2] M. A. Al Farhan and D. E. Keyes, *Optimizing Unstructured Grid Computations for Emerging Architectures*, To be submitted, 2019.
 
-[3] M. A. Al Farhan, *Unstructured Computations on Emerging Architectures*, [PhD Dissertation, KAUST,] 2019. http://hdl.handle.net/10754/644902.
+[3] M. A. Al Farhan and D. E. Keyes, *Optimizations of unstructured aerodynamics computations for many-core architectures*, IEEE Transactions on Parallel and Distributed Systems, vol. 29, no. 10, pp. 2317-2332, 2018.
 
-[4] M. A. Al Farhan and D. E. Keyes, *Optimizations of unstructured aerodynamics computations for many-core architectures*, IEEE Transactions on Parallel and Distributed Systems, vol. 29, no. 10, pp. 2317-2332, 2018.
+[4] M. A. Al Farhan, D. K. Kaushik, and D. E. Keyes, *Unstructured computational aerodynamics on many integrated core architecture*, Parallel Computing, vol. 59, pp. 97–118, 2016, Theory and Practice of Irregular Applications.
 
-[5] M. A. Al Farhan, D. K. Kaushik, and D. E. Keyes, *Unstructured computational aerodynamics on many integrated core architecture*, Parallel Computing, vol. 59, pp. 97–118, 2016, Theory and Practice of Irregular Applications.
+[5] W. D. Gropp, D. K. Kaushik, D. E. Keyes, and B. F. Smith, *High-performance parallel implicit CFD*, Parallel Computing, vol. 27, no. 4, pp. 337–362, 2001, Parallel Computing in Aerospace.
