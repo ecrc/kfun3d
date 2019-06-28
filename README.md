@@ -90,7 +90,7 @@ Support in the form of computing resources was provided by KAUST Extreme Computi
 
 ## Papers ##
 
-[1] M. A. Al Farhan and D. E. Keyes, *Optimizing Unstructured Grid Computations for Emerging Architectures*, To be submitted, 2020.
+[1] M. A. Al Farhan, D. E. Keyes, and J. J. Dongarra, *Optimizing Unstructured Grid Computations for Emerging Architectures*, To be submitted, 2020.
 
 [2] M. A. Al Farhan, *Unstructured Computations on Emerging Architectures*, [PhD Dissertation, KAUST,] 2019. http://hdl.handle.net/10754/644902.
 
