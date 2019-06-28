@@ -90,9 +90,9 @@ Support in the form of computing resources was provided by KAUST Extreme Computi
 
 ## Papers ##
 
-[1] M. A. Al Farhan, *Unstructured Computations on Emerging Architectures*, [PhD Dissertation, KAUST,] 2019. http://hdl.handle.net/10754/644902.
+[1] M. A. Al Farhan and D. E. Keyes, *Optimizing Unstructured Grid Computations for Emerging Architectures*, To be submitted, 2020.
 
-[2] M. A. Al Farhan and D. E. Keyes, *Optimizing Unstructured Grid Computations for Emerging Architectures*, To be submitted, 2019.
+[2] M. A. Al Farhan, *Unstructured Computations on Emerging Architectures*, [PhD Dissertation, KAUST,] 2019. http://hdl.handle.net/10754/644902.
 
 [3] M. A. Al Farhan and D. E. Keyes, *Optimizations of unstructured aerodynamics computations for many-core architectures*, IEEE Transactions on Parallel and Distributed Systems, vol. 29, no. 10, pp. 2317-2332, 2018.
 
