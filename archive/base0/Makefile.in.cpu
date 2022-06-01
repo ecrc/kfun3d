@@ -1,0 +1,17 @@
+
+USERFLAGS 	= -mkl	-ansi-alias		\
+							-qopt-assume-safe-padding -qopt-prefetch=4				\
+							-qopt-streaming-stores always
+
+CPPFLAGS		= -qopenmp -O3 $(USERFLAGS) $(FCONF)
+FPPFLAGS 		= $(CPPFLAGS) -align array64byte -g
+EXAMPLESC		= gridinfo.c kernel.c formfunc.c init.c 					\
+							memuse.c papiinfo.c index.c ktime.c
+EXAMPLESF		= force.F fill.F ilu.F grad.F flux.F							\
+							initfort.F timestep.F
+FLOW_OBJSF	= $(EXAMPLESF:.F=.o)
+FLOW_OBJSC	= $(EXAMPLESC:.c=.o)
+FLOW_OBJS		= ${FLOW_OBJSC} ${FLOW_OBJSF}
+COMPFLAGS		= $(FLOW_OBJS) $(CPPFLAGS) $(PETSC_SNES_LIB) 
+ 
+include Makefile.petsc

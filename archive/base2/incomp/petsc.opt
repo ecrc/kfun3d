@@ -1,0 +1,19 @@
+-cfl_ini 150.0
+-cfl_max 1.0e+10
+-ksp_rtol 1.0e-08
+-ksp_max_it 10
+-ksp_type gmres
+-snes_max_it 1
+-snes_converged_reason
+-max_st 20 
+-matrix_free 
+-pc_type asm
+-sub_pc_type ilu 
+-sub_pc_factor_levels 1
+-log_summary
+-print
+-snes_monitor
+-ksp_monitor
+-snes_view
+-print_freq 19
+-mesh ../../../../mesh/mesh/uns3dB.msh

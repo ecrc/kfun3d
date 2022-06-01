@@ -1,0 +1,14 @@
+-maxTimeSteps 15
+-fnormRatio 1.0e+7
+-CFLInit 50
+-CFLMax 1.0e+05
+-alpha 3.0
+-beta 15.0
+-ksp_rtol 0.01
+-snes_max_it 1
+-log_summary
+#-memory_view
+#-snes_monitor
+#-ksp_monitor
+-mesh ../../mesh/uns3dD.msh
+#-snes_converged_reason

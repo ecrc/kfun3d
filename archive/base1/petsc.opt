@@ -1,0 +1,9 @@
+-cfl_ini 50.0
+-cfl_max 1.0e+5
+-ksp_rtol 0.01
+-snes_max_it 1
+-max_st 15
+-print
+-matrix_free
+-log_summary
+-mesh ../../mesh/uns3dC.msh

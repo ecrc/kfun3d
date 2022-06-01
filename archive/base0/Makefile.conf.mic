@@ -1,0 +1,3 @@
+
+include Makefile.vars.mic
+include Makefile.in.mic

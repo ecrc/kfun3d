@@ -1,0 +1,28 @@
+
+USERFLAGS 	= -opt-gather-scatter-unroll=4 -mkl	-ansi-alias		\
+							-opt-assume-safe-padding -opt-prefetch=4				\
+							-opt-streaming-stores always 										\
+							-I${METIS_LIB} -lmetis
+
+#							-I${METIS_LIB} -L${METIS_PATH} -lmetis					\
+#           		-L${METIS_VAR} -I${PAPI_INC}
+
+
+CPPFLAGS		= -mmic -openmp -O3 $(USERFLAGS) $(FCONF)
+FPPFLAGS 		= $(CPPFLAGS) -align array64byte
+EXAMPLESC		= gridinfo.c kernel.c formfunc.c init.c 					\
+							memuse.c papiinfo.c index.c
+EXAMPLESF		= force.F fill.F ilu.F grad.F flux.F							\
+							initfort.F timestep.F
+FLOW_OBJSF	= $(EXAMPLESF:.F=.o)
+FLOW_OBJSC	= $(EXAMPLESC:.c=.o)
+FLOW_OBJS		= ${FLOW_OBJSC} ${FLOW_OBJSF}
+COMPFLAGS		= $(FLOW_OBJS) $(CPPFLAGS) $(PETSC_SNES_LIB) 
+LIBS				= -I/home/farhanma/lib-dev/metis/metis-5.1.0/build/Linux-x86_64/libmetis/libmetis.a
+
+
+
+
+#${PAPI_VAR}
+ 
+include Makefile.petsc

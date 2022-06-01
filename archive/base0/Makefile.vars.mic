@@ -1,0 +1,18 @@
+
+# PETSc
+#export PETSC_ARCH=arch-linux2-c-debug-mic
+export PETSC_ARCH=linux-gnu-intel-mic
+
+# MeTiS
+# export METIS_LIB=/home/farhanma/lib-dev/metis_mic/metis-4.0.3/Lib
+# export METIS_PATH=/home/farhanma/lib-dev/metis_mic/metis-4.0.3/
+# export METIS_VAR=/home/farhanma/lib-dev/metis_mic/metis-4.0.3/libmetis.a
+
+export METIS_PATH=/home/farhanma/lib-dev/metis-5.1.0/MIC/build
+export METIS_LIB=${METIS_PATH}/include
+export MIC_LIBRARY_PATH=${METIS_PATH}/Linux-x86_64/libmetis/
+
+
+# PAPI
+export PAPI_INC=/home/farhanma/lib-dev/papi_mic/include
+export PAPI_VAR=/home/farhanma/lib-dev/papi_mic/lib/libpapi.a
